@@ -5,17 +5,17 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name)
+function helloWorld($name="alice")
 {
     //
     // YOUR CODE GOES HERE
     //
 if($name !=""){
-echo "Hello,". $name."!";
+return "Hello,". $name."!";
 }
 else 
-echo "Hello World!";
+return "Hello World!";
 
 }
-helloWorld(mohamad);
+helloWorld();
 ?>

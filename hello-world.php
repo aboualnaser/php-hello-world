@@ -5,7 +5,7 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name)
+function helloWorld($name="alice")
 {
     //
     // YOUR CODE GOES HERE
@@ -17,5 +17,5 @@ else
 return "Hello World!";
 
 }
-helloWorld();
+echo helloWorld();
 ?>
