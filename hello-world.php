@@ -11,11 +11,11 @@ function helloWorld($name)
     // YOUR CODE GOES HERE
     //
 if($name !=""){
-echo "Hello,". $name."!";
+return "Hello,". $name."!";
 }
 else 
-echo "Hello World!";
+return "Hello World!";
 
 }
-helloWorld(mohamad);
+helloWorld();
 ?>
